@@ -1,0 +1,104 @@
+html, body {
+    background-color: azure;
+    overflow: hidden;
+
+}
+.line {
+    width: 110vw ;
+    height: 11vw;
+    background-color: azure;
+    margin-left: 226px ;
+    margin-top: 0px ;
+    margin-bottom: -80px;
+    display: flex;
+    justify-content: left; /* Center horizontally */
+    align-items: baseline; /* Center vertically */
+    gap: 35px;
+    
+}
+.under {
+    width: 70vw;
+    height: 1px;
+    margin-left: 12vw;
+    background-color: black;
+    opacity: 50%;
+}
+
+.Sneakers {
+    font-size: 42px;
+    font-weight: 900;
+    font-family: Arial , sans-serif;
+    margin-right: 30px;
+
+}
+.other {
+    text-decoration: none;
+    opacity: 0.40;
+    color: black;
+}
+.shopping-cart {
+    margin-left: 22vw;
+}
+
+.shoes { 
+    align-items: center;
+    margin-left: 50vh;
+    margin-top: -6vh;
+}
+
+.main-section {
+    display: flex;
+    margin-left: 50vh;
+    align-items: center;
+    height: 70vh;
+}
+.text-large {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial , sans-serif;
+    margin-left: 5vw;
+}
+.text-medium {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial , sans-serif;
+    margin-left: 5vw;
+}
+.text-small {
+    font-size: 10px;
+    font-weight: 600;
+    font-family: Arial , sans-serif;
+    margin-left: 5vw;
+}
+.buy-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 5vw;
+    cursor: pointer;
+}
+.buy-button:hover {
+    background-color: #555;
+    color: white;
+}
+.sidebar {
+    width: 20vw;
+    height: 100vh;
+    background-color: azure;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+.sidebar-list {
+    text-align: left;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Arial , sans-serif;
+}
